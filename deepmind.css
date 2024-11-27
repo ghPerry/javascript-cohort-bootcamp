@@ -314,7 +314,7 @@
     justify-content: start;
     align-items: start;
     column-gap: 4rem;
-    padding: 4rem 6.3rem 6.3rem;
+    padding: 1.5rem 6.3rem 0 6.3rem;
 }
 
 
@@ -519,7 +519,7 @@
     position: relative;
     text-align: center;
     color: white;
-    margin: 4rem 6.3rem 6.3rem;
+    margin: 1.5rem 6.3rem 0 6.3rem;
 }
 
 
@@ -590,7 +590,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 3rem;
+    padding: 6.5rem 6.3rem 0 6.3rem;
 }
 
 
@@ -843,7 +843,7 @@
     justify-content: start;
     align-items: start;
     column-gap: 2.5rem;
-    padding: 1.5rem 6.3rem 0 6.3rem;
+    padding: 6.5rem 6.3rem 0 6.3rem;
 }
 
 
@@ -915,7 +915,8 @@ img {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    margin: 5rem 0 5rem 0;
+    margin: auto;
+    padding: 5.5rem 6.3rem 3rem 6.3rem;
 }
 
 
@@ -966,17 +967,19 @@ img {
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    padding: 1.5rem 6.3rem 0 6.3rem;
 }
 
 
 
-.box90 {
-    width: 45%;
+.box90, .box97 {
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    border: 0.25px solid;
 }
 
 
@@ -992,19 +995,25 @@ img {
 }
 
 
-.box93 {
+.box93, .box99 {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    row-gap: 1rem;
 }
 
 
-.box94 {
+.box94, .box100 {
     width: fit-content;
     height: auto;
+}
+
+.box100 p {
+    font-size: 1.25rem;
+    color: #202124;
 }
 
 
@@ -1015,22 +1024,33 @@ img {
 
 
 .box95 {
-    width: fit-content;
+    width: 100%;
+    height: auto;
+}
+
+.box101 {
+    width: 100%;
     height: auto;
 }
 
 
+.box101 p {
+    font-size: 1rem;
+}
+
+
 .box95 p {
-    font: 1rem;
+    font-size: 1rem;
 }
 
 
 
-.box96 {
-    width: fit-content;
+.box96, .box102 {
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: end;
+    padding: 2rem 2rem 0 0;
 }
